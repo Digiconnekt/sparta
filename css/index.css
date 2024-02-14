@@ -93,6 +93,14 @@ footer .footer-section-bottom {
   .hero-section .hero-container {
     padding-top: 50px;
   }
+
+  section.customer-say-section {
+    border-radius: 0px;
+  }
+
+  section.why-choose-us-section .bg-img {
+    border-radius: 0px;
+  }
 }
 
 @media (max-width: 768px) {
