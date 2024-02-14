@@ -5,6 +5,8 @@ section.hero-section {
   background-repeat: no-repeat;
   border-radius: 40px;
   margin-top: 40px;
+
+  background-color: #002e6d;
 }
 
 .hero-section .hero-container {
