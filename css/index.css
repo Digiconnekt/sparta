@@ -1,0 +1,28 @@
+header .nav-link {
+  color: #ffffff !important;
+  font-size: 14px;
+}
+
+header .logo-block {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+header .logo-block img.logo {
+  max-width: 180px;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+header .header-middle {
+  margin-top: -48px;
+}
+
+section.hero-section {
+  background-image: url("../images/home/hero-banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 40px;
+  margin-top: 40px;
+}
