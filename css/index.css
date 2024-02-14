@@ -63,6 +63,27 @@ section.internet-package-section .seperator-border {
   margin: 10px auto;
 }
 
+footer .footer-section-top {
+  background-image: url("../images/home/hero-banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+footer a {
+  color: #ffffff;
+  transition: all 0.25s ease;
+}
+
+footer a:hover,
+footer a:focus {
+  color: #b2ef42;
+}
+
+footer .footer-section-bottom {
+  background-color: #7abbf4;
+}
+
 @media (max-width: 1199px) {
   section.hero-section {
     border-radius: 0px;
