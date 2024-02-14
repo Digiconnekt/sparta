@@ -42,4 +42,14 @@ section.business-package .business-package-card .bottom {
     border-radius: 0px;
     margin-top: 0px;
   }
+
+  .hero-section .hero-container {
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section .hero-container {
+    padding-top: 30px;
+  }
 }
