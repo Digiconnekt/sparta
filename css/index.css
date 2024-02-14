@@ -6,3 +6,10 @@ section.hero-section {
   border-radius: 40px;
   margin-top: 40px;
 }
+
+@media (max-width: 1199px) {
+  section.hero-section {
+    border-radius: 0px;
+    margin-top: 0px;
+  }
+}
