@@ -13,8 +13,20 @@
       crossorigin="anonymous"
     />
 
+    <!-- FONTAWESOME CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <!-- GLOBAL CSS -->
     <link rel="stylesheet" href="./css/global.css" />
+
+    <!-- HEADER CSS -->
+    <link rel="stylesheet" href="./css/header.css" />
 
     <!-- INDEX PAGE CSS -->
     <link rel="stylesheet" href="./css/index.css" />
@@ -25,8 +37,12 @@
       <section class="mx-md-5 hero-section min-vh-100 position-relative">
         <!-- HEADER START -->
         <header>
-          <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
+          <nav class="navbar navbar-expand-xl">
+            <div class="container">
+              <a class="navbar-brand d-xl-none" href="/">
+                <img src="./images/logo.png" alt="Sparta" />
+              </a>
+
               <button
                 class="navbar-toggler"
                 type="button"
@@ -36,13 +52,17 @@
                 aria-expanded="false"
                 aria-label="Toggle navigation"
               >
-                <span class="navbar-toggler-icon"></span>
+                <i class="fas fa-bars text-white"></i>
+                <!-- <span class="navbar-toggler-icon"></span> -->
               </button>
+
               <div
                 class="collapse navbar-collapse justify-content-center"
                 id="navbarNavDropdown"
               >
-                <ul class="navbar-nav align-items-center gap-2">
+                <ul
+                  class="navbar-nav align-items-center gap-0 gap-lg-1 gap-xxl-4"
+                >
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#"
                       >Home</a
@@ -63,12 +83,29 @@
                       Services
                     </a>
                     <ul
-                      class="dropdown-menu"
+                      class="dropdown-menu bg-c-primary py-0"
                       aria-labelledby="navbarDropdownMenuLink"
                     >
-                      <li><a class="dropdown-item" href="#">Broadband</a></li>
                       <li>
-                        <a class="dropdown-item" href="#">Fibre</a>
+                        <a
+                          class="bg-c-secondary mb-1 dropdown-item color-c-primary"
+                          href="#"
+                          >Broadband</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="bg-c-secondary mb-1 dropdown-item color-c-primary"
+                          href="#"
+                          >Fibre</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="bg-c-secondary dropdown-item color-c-primary"
+                          href="#"
+                          >VoIP Systems</a
+                        >
                       </li>
                     </ul>
                   </li>
@@ -79,7 +116,7 @@
                     <a class="nav-link" href="#">Blogs</a>
                   </li>
 
-                  <li class="header-middle position-relative">
+                  <li class="header-middle position-relative d-none d-xl-block">
                     <div class="d-flex align-items-start">
                       <a class="nav-link px-0 bg-white logo-block" href="#">
                         <img
@@ -116,16 +153,18 @@
           </nav>
         </header>
 
-        <div class="position-absolute header-right-menu">
+        <!-- RIGHT MENU START -->
+        <div class="position-absolute header-right-menu d-none d-xl-block">
           <ul class="list-unstyled">
             <li>
-              <a href="#" class="text-white text-decoration-none">Contact Us</a>
+              <a href="#" class="text-decoration-none">Contact Us</a>
             </li>
             <li>
-              <a href="#" class="text-white text-decoration-none">Login</a>
+              <a href="#" class="text-decoration-none">Login</a>
             </li>
           </ul>
         </div>
+        <!-- RIGHT MENU END -->
         <!-- HEADER END -->
 
         <div class="container">
