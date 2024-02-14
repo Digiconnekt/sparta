@@ -18,6 +18,23 @@ header .header-middle {
   margin-top: -48px;
 }
 
+header .header-middle .top-left-content {
+  left: -102px;
+}
+
+header .header-middle .top-right-content {
+  right: -113px;
+}
+
+.header-right-menu {
+  top: 30px;
+  right: 30px;
+}
+
+.header-right-menu a {
+  font-size: 14px;
+}
+
 section.hero-section {
   background-image: url("../images/home/hero-banner.jpg");
   background-size: cover;
