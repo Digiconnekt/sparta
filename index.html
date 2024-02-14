@@ -31,10 +31,10 @@
     <!-- INDEX PAGE CSS -->
     <link rel="stylesheet" href="./css/index.css" />
   </head>
-  <body class="min-vh-100">
-    <main class="min-vh-100">
+  <body>
+    <main>
       <!-- BANNER + HEADER START -->
-      <section class="mx-xl-5 hero-section min-vh-100 position-relative">
+      <section class="mx-xl-5 hero-section position-relative">
         <!-- HEADER START -->
         <header>
           <nav class="navbar navbar-expand-xl">
@@ -167,19 +167,126 @@
         <!-- RIGHT MENU END -->
         <!-- HEADER END -->
 
-        <div class="container">
+        <!-- BANNER START -->
+        <div class="container hero-container">
           <div class="row">
-            <div class="col-6">
-              <h1>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis,
-                delectus.
+            <div class="col-12 col-md-6">
+              <p
+                class="bg-c-secondary color-c-primary fs-5 fw-bolder py-2 px-3 d-inline-block secondary-text"
+              >
+                Boardband Deals
+              </p>
+              <h1 class="text-white fw-bold">
+                Pay Half Price For Your First 6 Months.
+                <br />
+                <span class="color-c-secondary">
+                  Seamless Connectivity Anywhere, Everywhere!
+                </span>
               </h1>
+              <p class="text-white mt-3 fw-bold">Check Availability</p>
+              <form>
+                <input
+                  type="text"
+                  placeholder="Postcode"
+                  class="form-control w-25 d-inline-block"
+                />
+                <button
+                  class="btn bg-c-secondary color-c-primary fw-bold mb-1 ms-2"
+                >
+                  See Your Deals
+                </button>
+              </form>
             </div>
-            <div class="col-6"></div>
+            <div class="col-12 col-md-6">
+              <img
+                src="./images/home/hero-img.png"
+                alt="Hero section image"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- BANNER END -->
+      </section>
+      <!-- BANNER + HEADER END -->
+
+      <!-- BUSINESS PACKAGE START -->
+      <section class="business-package container py-5">
+        <p class="text-center fs-4 color-c-primary mb-1">
+          Sparta's Business Packages
+        </p>
+        <div class="text-center">
+          <h2
+            class="color-c-primary fw-bold d-inline-block px-3 py-2 primary-heading fs-3"
+          >
+            Half the Price, Double the Value!
+          </h2>
+        </div>
+
+        <div class="row mt-4 align-items-stretch">
+          <div class="col-12 col-md-6 business-package-card h-100">
+            <div class="top bg-c-primary p-5">
+              <h3 class="color-c-secondary fw-bold">
+                Sparta VoIP <br />
+                Essential
+              </h3>
+              <p class="color-c-secondary fs-5 mb-1">
+                Limitless Conversations.
+              </p>
+              <p class="mb-0 text-white fs-5">Pay Half for 6 Months!</p>
+            </div>
+            <div
+              class="bottom bg-c-blue-light p-5 py-4 d-flex align-items-center justify-content-between"
+            >
+              <div>
+                <a
+                  class="btn bg-c-secondary color-c-primary fw-bold"
+                  href="#"
+                  role="button"
+                  >View More</a
+                >
+              </div>
+              <div>
+                <span class="fs-3 text-decoration-line-through me-2">
+                  €10
+                </span>
+                <span class="fw-bold fs-1"> €5 </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 business-package-card h-100">
+            <div class="top bg-c-primary p-5">
+              <h3 class="color-c-secondary fw-bold">
+                Business Fibre <br />
+                Ultrafast Max
+              </h3>
+              <p class="color-c-secondary fs-5 mb-1">
+                Experience like never before.
+              </p>
+              <p class="mb-0 text-white fs-5">Pay Half for 6 Months!</p>
+            </div>
+            <div
+              class="bottom bg-c-blue-light p-5 py-4 d-flex align-items-center justify-content-between"
+            >
+              <div>
+                <a
+                  class="btn bg-c-secondary color-c-primary fw-bold"
+                  href="#"
+                  role="button"
+                  >View More</a
+                >
+              </div>
+              <div>
+                <span class="fs-3 text-decoration-line-through me-2">
+                  €48
+                </span>
+                <span class="fw-bold fs-1"> €24 </span>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-      <!-- BANNER + HEADER END -->
+      <!-- BUSINESS PACKAGE END -->
     </main>
 
     <!-- BOOTSTRAP JS CDN -->
