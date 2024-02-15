@@ -98,6 +98,73 @@ section.internet-package-section .seperator-border {
   margin: 10px auto;
 }
 
+section .google-review-section {
+  border-radius: 40px;
+}
+
+section .google-review-section .review-block .left-block p.rating {
+  color: #f4bf00;
+}
+
+section .google-review-section .review-block .left-block ul li {
+  margin-left: -5px;
+}
+
+section .google-review-section .review-block .left-block img.powered-by-google {
+  margin-top: -10px;
+  max-width: 150px;
+}
+
+section .google-review-section .review-block .right-block p.time {
+  font-size: 14px;
+}
+
+section .google-review-section .review-block .left-block a.google-review-btn {
+  max-width: 120px;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+section
+  .google-review-section
+  .review-block
+  .left-block
+  a.google-review-btn
+  img {
+  width: 16px;
+  margin-left: 4px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 1px;
+}
+
+section .google-review-section .review-block .right-block .content-block {
+  height: 80px;
+  overflow-y: scroll;
+}
+
+section .google-review-section .review-block .right-block .content-block p {
+  font-size: 14px;
+}
+
+section
+  .google-review-section
+  .review-block
+  .swiper-horizontal
+  > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: -5px;
+}
+
+section .google-review-section .review-block .swiper-pagination-bullet {
+  height: 6px;
+  width: 6px;
+}
+
 footer .footer-section-top {
   background-image: url("../images/home/hero-banner.jpg");
   background-size: cover;
