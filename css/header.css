@@ -16,6 +16,10 @@ header .dropdown-item:hover {
   transition: all 0.25s ease;
 }
 
+header ul.navbar-nav {
+  align-items: center;
+}
+
 header .logo-block {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -57,6 +61,15 @@ header .header-middle .top-right-content {
   color: #b2ef42;
 }
 
+@media (max-width: 1199px) {
+  header ul.navbar-nav {
+    align-items: flex-start;
+  }
+
+  header ul.navbar-nav li.nav-item {
+    width: 100%;
+  }
+}
 @media (max-width: 1300px) {
   header .logo-block img.logo {
     max-width: 150px;
