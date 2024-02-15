@@ -43,6 +43,39 @@ section.customer-say-section {
   border-radius: 40px;
 }
 
+section.customer-say-section .review-block {
+  border: 1px solid #ffffff;
+}
+
+section.customer-say-section .review-block .tick-icon-block {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 8px;
+}
+
+section.customer-say-section .review-block p.invited,
+section.customer-say-section .review-block p.name-date {
+  font-size: 14px;
+}
+
+section.customer-say-section
+  .review-block
+  .swiper-horizontal
+  > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: -5px;
+}
+
+section.customer-say-section .review-block .swiper-pagination-bullet {
+  height: 6px;
+  width: 6px;
+}
+
 section.why-choose-us-section .description {
   max-width: 950px;
   margin-left: auto;
